@@ -15,8 +15,8 @@ export default function Contact() {
         <label className="mb-3">Message :</label>
         <textarea className="mb-12"/>
         <div className="flex flex-row">
-        <button type="submit" className="rounded-full bg-sky-500 text-white w-fit px-3 m-3">Submit</button>
-        <button type="reset" className="rounded-full bg-sky-500 text-white w-fit px-3 m-3">Reset</button>
+        <button type="submit" className="rounded-full bg-sky-500 text-white w-fit px-3 m-3 transition duration-500 hover:bg-white hover:text-sky-500">Submit</button>
+        <button type="reset" className="rounded-full bg-sky-500 text-white w-fit px-3 m-3 transition duration-500 hover:bg-white hover:text-sky-500">Reset</button>
         </div>
         </div>
         </form>

@@ -1,5 +1,6 @@
 .twitter path{
     fill:grey;
+    transition: 0.5s;
 }
 .twitter:hover path{
     fill:#1DA1F2;
@@ -7,6 +8,7 @@
 
 .linkedin path{
     fill:grey;
+    transition: 0.5s;
 }
 .linkedin:hover path{
     fill:#0072b1;
@@ -14,14 +16,15 @@
 
 .github path{
     fill:grey;
+    transition: 0.5s;
 }
 .github:hover path{
     fill:#6e5494;
 }
 
 .title{
-   animation: Color 15s linear infinite;
-  -webkit-animation: Color 15s ease-in-out infinite;
+   animation: Color 10s linear infinite;
+  -webkit-animation: Color 10s ease-in-out infinite;
 }
 
 @keyframes Color{
@@ -35,9 +38,9 @@
     color:white;
   }
   75%{
-    color: #4FC1E9;
+    color: #e94f4f;
   }
-  1000%{
+  100%{
     color:whitz;
   }
 }

@@ -44,10 +44,10 @@ export default function Carousel(){
     checkScrolls();
 
     return (
-    <div className='h-screen items-center justify-center center'>
+    <div className='h-screen items-center justify-center center w-4/5 text-center mx-auto'>
         <div className='text-center text-sky-400 text-2xl pt-12'>Projects</div>
         <div className='flex flex-row h-[80vh]'>
-        <button id="prev_button" className="left ml-4" onClick={scrollPrev}>
+        <button id="prev_button" className="left m-4" onClick={scrollPrev}>
             <FontAwesomeIcon icon={faAngleLeft} size="2x"  
             />
         </button>
@@ -56,7 +56,7 @@ export default function Carousel(){
                 <div className={styles.embla__slide}>
                     <CarouselItem 
                     name="Unbeatable TicTacToe" img={tictactoePic}
-                    description="I built a tic-tac-toe game with a bot that simply cannot lose. Don't believe me ? try it yourself on tictactoe-spid3rrr.vercel.app"
+                    description='I built a tic-tac-toe game with a bot that simply cannot lose. Don`t believe me ? try it yourself HERE'
                     skills="React - Flask"
                 /></div>
                 <div className={styles.embla__slide}>
@@ -73,7 +73,7 @@ export default function Carousel(){
                 /></div>
             </div>
         </div>
-        <button id="next_button" className="right mr-4" onClick={scrollNext}>
+        <button id="next_button" className="right m-4" onClick={scrollNext}>
             <FontAwesomeIcon icon={faAngleRight} size="2x"/>
         </button>
         </div>
@@ -84,8 +84,8 @@ export default function Carousel(){
 
 function CarouselItem(props){
     return (
-        <div className="block h-[80vh] w-[80vw] md:w-[90vw] m-6 flex flex-col md:flex-row justify-center items-center" >
-           <div id="image" className="w-2/5 md:w-2/5 mb-4 md:mr-8 md:mb-0 mx-4">
+        <div className="h-[60vh] w-[60vw] md:w-[70vw] m-6 flex flex-col md:flex-row justify-center items-center text-left" >
+           <div id="image" className="w-full md:w-full mb-4 md:mr-8 md:mb-0 mx-4">
            <Image 
             src={props.img}
             layout="responsive"
