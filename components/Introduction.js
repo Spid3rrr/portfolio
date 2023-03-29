@@ -10,13 +10,12 @@ export default function Introduction() {
           Hello there !
           <div>
             I'm <span className="text-lime-500">Amine Braham</span> ! I love
-            coding and building stuff. I'm passionate about learning everything
+            coding, solving problems and building stuff. I'm passionate about learning everything
             related to tech, from{" "}
             <span className="text-amber-600">full-stack development</span>, to{" "}
             <span className="text-teal-400">mobile apps</span> and{" "}
             <span className="text-amber-400"> games</span>,
-            <span className="text-sky-600"> chatbots</span>,{" "}
-            <span className="text-amber-600"> AI</span> and more !
+            <span className="text-sky-600"> AI</span> and more !
             <div>
               Whether you need a custom web application, a mobile app, or a
               software solution, I have the experience and technical expertise
@@ -29,11 +28,11 @@ export default function Introduction() {
             <span className="block text-4xl p-4 border-b-4 dark:border-b-lime-500 border-b-lime-500">Freelancer on </span>
           </div>
           <div id="companies" className="flex flex-row justify-around space-x-4">
-            <a href="https://github.com/Spid3rrr">
+            <a href="https://www.upwork.com/freelancers/~010f8357d7483b57e6">
               <span className="sr-only">Upwork</span>
               <Upwork size={72}/>
             </a>
-            <a href="https://github.com/Spid3rrr">
+            <a href="https://www.fiverr.com/aminbrahem">
               <span className="sr-only">Fiverr</span>
               <Fiverr size={72}/>
             </a>

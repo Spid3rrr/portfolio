@@ -21,8 +21,9 @@ export default function Welcome() {
     <div className="text-blue-400">/&gt;</div>
     </div>
     <div id="buttonContainer" className='flex flex-row justify-around pt-5'>
-      <button className="text-base md:text-lg mx-2 rounded-full border-2 border-black dark:border-white  md:px-3 px-2 hover:border-blue-500 hover:text-white transition hover:bg-blue-500 duration-500">LinkedIn</button>
-      <button className="text-base md:text-lg mx-2 rounded-full border-2 border-black dark:border-white  md:px-3 px-2 whitespace-nowrap hover:text-white hover:bg-amber-600 transition duration-500">Contact me !</button>
+      <button className="text-base md:text-lg mx-2 rounded-full border-2 border-black dark:border-white  md:px-3 px-2 whitespace-nowrap hover:text-white hover:bg-red-600 transition duration-500"><a download href="/Amine_Braham_CV.pdf" > My Resume </a></button>
+      <button className="text-base md:text-lg mx-2 rounded-full border-2 border-black dark:border-white  md:px-3 px-2 hover:border-blue-500 hover:text-white transition hover:bg-blue-500 duration-500"><a href="https://www.linkedin.com/in/amine-braham/" > LinkedIn </a></button>
+      <button className="text-base md:text-lg mx-2 rounded-full border-2 border-black dark:border-white  md:px-3 px-2 whitespace-nowrap hover:text-white hover:bg-amber-600 transition duration-500"><a href="mailto:braham.amine@outlook.com" > Contact Me </a></button>     
     </div>
     </div>
   )
